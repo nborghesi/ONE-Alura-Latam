@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador Alura</title>
+</head>
+
+<body>
+    <header>
+        <section class="hello">
+            <figure>
+                <img src="logoalura.png"
+                alt=" logo da alura ">
+            </figure>
+            <h1>Criptografar ou Descriptografar algumas palavras?</h1>
+        </section>
+    </header>
+
+    <main class="main ">
+        <section class="codificador ">
+            <textarea class="digiteaqui " cols="50 " rows="10 " placeholder="Digite aqui o texto que você deseja criptografar ou descriptografar. "></textarea>
+
+            <div class="buttons ">
+                <button class="criptografar " onclick="btnCriptografar() ">Criptografar</button>
+                <button class="descriptografar " onclick="btnDescriptografar() ">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="mensagem ">
+            <textarea class="respostaaqui " cols="40" rows="10" placeholder="Texto criptografado ou descriptografado, ficará em minusculas."></textarea>
+            <button class="copy-button " onclick="btnCopiar() ">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por Newton Borghesi 05/2022</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/newton-borghesi-39389523/"  target="_blank">
+            <img alt="LinkedIn" 
+            </a>
+  
+            <a href="https://github.com/nborghesi/" target="_blank">
+            <img alt="GitHub">
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="script.js "></script>
+
+</html>
