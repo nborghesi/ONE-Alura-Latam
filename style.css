@@ -140,6 +140,9 @@ body {
 
 footer {
     margin-top: 30px;
-    margin-left: 410px;
-    text-shadow: 3px 8px 3px whitesmoke;
+    margin-left: 480px;
+    text-shadow: 5px 8px 5px whitesmoke;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
